@@ -1,0 +1,55 @@
+/* Common font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Define CSS */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:cadetblue;
+
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+    border: 2px solid aliceblue;
+    padding: 2rem 5rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+a::before{
+    content: "DOWNLOAD";
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    transform: translateY(-100%);
+    transition: all 0.5s;
+    /* center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hover effect */
+a:hover::before{
+    transform: translateY(0);
+
+}
