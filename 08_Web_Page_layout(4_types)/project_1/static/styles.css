@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* RESET */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* .header{
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+} */
+
+/* Main Container */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* logo - section*/
+.logo-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    padding-left: 2%;
+    /* vertical center */
+    line-height: 50px;
+}
+
+/* Navigation - section */
+.nav-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    margin-top: 10px;
+    padding-left: 2%;
+    /* horizontal center */
+    text-align: center;
+    /* vertical center */
+    line-height: 50px;
+}
+
+/* Header - section*/
+.header-div{
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgray;
+    margin-top: 10px;
+    padding-left: 2%;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* Body - section*/
+.parent-div{
+    width: 100%;
+    /* min-height: 400px; */
+    /* background-color: lightgray; */
+    margin-top: 10px;
+}
+
+.parent-div::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.child1-div{
+    /* sidebar div */
+    width: 20%;
+    min-height: 400px;
+    background-color: lightgray;
+    /* float property  */
+    float: left;
+    text-align: center;
+    line-height: 400px;
+
+}
+
+.child2-div{
+    /* body div */
+    width: 77%;
+    min-height: 400px;
+    background-color: lightgray;
+    /* float property  */
+    float: right;
+    text-align: center;
+    line-height: 400px;
+}
+
+/* Footer - section*/
+.footer-div{
+
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+}
