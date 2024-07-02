@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* RESET CSS*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* Body Section -Define Flex direction */
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* min-height: 100px; */
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+/* Header Sections */
+.header-div{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    margin: auto; */
+}
+
+/* Logo */
+.logo-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    align-items: center; /*Flex box using flex-direction :row , need to use align-items:center , line-heights */
+    padding-left: 2%;
+
+}
+
+/* Navigation */
+.nav-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 40px;
+    background-color: lightgray;
+    margin-top: 10px;
+    align-items: center;  /* Vertical Align */
+    justify-content: center;/* Horizontal Align */
+
+}
+
+/* Header /Banner */
+.head-banner-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgray;
+
+    margin-top: 10px;
+    align-items: center;  /* Vertical Align */
+    justify-content: center;/* Horizontal Align */
+
+}
+
+/* Main body Sections */
+.main-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 400px;
+    /* background-color: aqua; */
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+/* Sidebar -Inner Row */
+.sidebar-div{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%; /* flex-basis, act as width in Inner Row */
+    background-color: lightgray;
+    
+    /* width: 30%; */
+    /* min-height: 400px; */
+    align-items: center;  /* Vertical Align */
+    justify-content: center;/* Horizontal Align  */
+}
+
+/* Body Area -Inner Row*/
+.body-area-div{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 68%; /* flex-basis, act as width in Inner Row */
+    background-color: lightgray;
+    /* margin-left: 10px; */
+
+    align-items: center;  /* Vertical Align */
+    justify-content: center;/* Horizontal Align  */
+}
+
+/* Footer Sections */
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    
+    margin-top: 10px;
+    align-items: center;  /* Vertical Align */
+    justify-content: center;/* Horizontal Align */
+
+}
