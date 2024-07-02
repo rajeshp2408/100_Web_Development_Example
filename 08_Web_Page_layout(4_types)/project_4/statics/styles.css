@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* RESET */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* Basic -Section */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Header -Section */
+.parent-header-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.parent-header-div::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.logo-div{
+    width: 20%;
+    float: left; /* Position Left */
+    padding-left: 2%;
+    /* text-align: center; */
+    line-height: 50px;
+}
+
+.nav-div{
+    width: 75%;
+    float: right; /* Position Right */
+    text-align: center;
+    line-height: 50px;
+
+}
+
+/* Other Blocks */
+/* Row Section */
+.row-div{
+    width: 100%;
+    min-height: 100px;
+    /* background-color: red; */
+    margin-bottom: 10px;
+}
+
+/* Column Section */
+.column-div{
+    width: 22%;
+    min-height: 100px;
+    background-color:lightgray;
+    float: left;
+}
+
+.column-div:nth-child(2){
+    margin-left: 4%;
+    margin-right: 4%; */
+}
+.column-div:nth-child(3){
+
+    margin-right: 4%;
+}
+
+/* Box Items -Section */
+.box-item{
+    width: 100%;
+    min-height: 150px;
+    /* background-color: lightgray; */
+    margin-top: 10px;
+}
+
+.box-item::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box{
+    width: 30%;
+    /* min-height:150px; */
+    float: left;
+    text-align: center;
+    line-height:150px;
+    background-color: lightgray;
+}
+
+.box:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Footer -Section */
+.footer-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+
+}

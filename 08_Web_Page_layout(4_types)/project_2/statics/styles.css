@@ -10,14 +10,118 @@
 }
 
 /* Basic -Section */
+.container{
+    width: 80%;
+    margin: auto;
+}
 
+/* Parent of Navigation/Logo  */
+/* Header -Section */
+.parent-div1{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+}
+
+.parent-div::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 
 /* Logo -Section */
-
-/* Header -Section */
+.logo-div{
+    width: 50%;
+    min-height: 50px;
+    /* background-color: lightgray; */
+    float: left;
+    /* horizontal center */
+    /* text-align: center; */
+    /* vertical center */
+    line-height: 50px;
+    padding-left: 2%;
+}
 
 /* NavBar -Section */
+.nav-items{
+    width: 50%;
+    min-height: 50px;
+    /* background-color: lightgray; */
+    float: right;
+    /* horizontal center */
+    /* text-align: center; */
+    /* vertical center */
+    line-height: 50px;
+}
+
+/* Header - section*/
+.header-div{
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgray;
+    margin-top: 10px;
+    padding-left: 2%;
+    /* horizontal center */
+    text-align: center;
+    line-height: 100px;
+}
+
+/* Intro - section*/
+.intro-div{
+    width: 100%;
+    min-height: 80px;
+    background-color: lightgray;
+    margin-top: 10px;
+    padding-left: 2%;
+    /* horizontal center */
+    text-align: center;
+    line-height: 80px;
+    /* line space below */
+    margin-bottom: 10px;
+}
 
 /* Body -Section */
+/* Box -section */
+.box-item{
+    width: 100%;
+    min-height: 350px;
+    /* background-color: orange; */
+    margin-bottom: 10px;
+}
+
+.box-item::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Box child-section */
+.box{
+    width: 30%;
+    min-height: 350px;
+    float: left;
+    background-color: lightgray;
+    /* horizontal center */
+    text-align: center;
+    /* vertical center */
+    line-height: 350px;
+}
+
+.box:nth-child(2){
+    margin-left: 5%;     /* to add the margin to left on middle box2 */
+    margin-right: 5%;    /* to add the margin to right on middle box2 */
+}
 
 /* Footer -Section */
+.footer{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    /* margin-top: 10px; */
+    padding-left: 2%;
+    /* horizontal center */
+    text-align: center;
+    line-height: 80px;
+    /* line space below */
+
+}

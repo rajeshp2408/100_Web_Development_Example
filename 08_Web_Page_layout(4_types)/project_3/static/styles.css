@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* RESET */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* Main -Section */
+.container{
+    width: 80%;
+    margin: auto; /* To bring the content to middle */
+}
+
+/* header Section */
+.header-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+
+}
+
+.header-div::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+/* Logo Section */
+.logo-div{
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Parent Body -Section */
+.body-main-div{
+    width: 100%;
+    min-height: 580px;
+    /* background-color: lightgray; */
+}
+
+.body-main-div::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+/*Left Side Navigation Section */
+.left-div{
+    width: 25%;
+    min-height: 580px;
+    /* background-color: aqua; */
+    /* text-align: center;
+    line-height: 500px; */
+    padding-left: 2%;
+    float: left;
+}
+
+/* Right Side Section */
+.right-div{
+    width: 75%;
+    min-height: 580px;
+    /* background-color:blue; */
+    float: right;
+
+}
+
+/* Header/Banner Section */
+.header-banner-div{
+    width: 100%;
+    min-height: 200px;
+    background-color: lightgrey;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 200px;
+}
+/* Body Area Section */
+.body-div{
+    width: 100%;
+    min-height: 360px;
+    background-color: lightgrey;
+    /* margin-bottom: 2%; */
+    text-align: center;
+    line-height: 360px;
+
+}
+
+/* Footer Section */
+.footer-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+}
