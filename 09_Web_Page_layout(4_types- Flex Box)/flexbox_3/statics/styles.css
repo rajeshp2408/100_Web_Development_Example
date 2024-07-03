@@ -52,11 +52,52 @@ body{
     flex-direction: row;
 
     width: 100%;
-    min-height: 600px;
-    background-color: aqua;
+    min-height: 550px;
+    /* background-color: aqua; */
     margin-top: 10px;
+    justify-content: space-between; /* To add space between left & right div */
 }
 
+/* Inner Div -Left*/
+.left-div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    /* background-color: lightgray; */
+    /* justify-content: center; */
+}
+
+/* Inner Div -Right*/
+.right-div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+
+
+}
+
+.header-banner-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 150px;
+    background-color: lightgray;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.body-area-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 400px;
+    background-color: lightgray;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
 
 /* Footer Sections */
 .footer-div{
