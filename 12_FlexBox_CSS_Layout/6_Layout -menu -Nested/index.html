@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="statics/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Layout_6_Menu</title>
+</head>
+<body>
+    <!-- Main content -->
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <ul class="social">
+                <li><a href="#" class="fb"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="#" class="tw"><i class="bi bi-twitter" ></i></a></li>
+            </ul>
+        </nav>
+
+        <!-- Grid /Stack Section -->
+        <div style="margin: 20px">
+            <span>Layout:</span>
+            <a href="#" class="stack">Stack</a>
+            <a href="#" class="grid">Grid</a>
+        </div>
+
+        <!-- Body -->
+         <section id="blocks">
+            <article>
+                <h2>This is example 1</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quas rerum magni nulla earum recusandae, deleniti laboriosam similique, assumenda, quia necessitatibus sequi porro. Est in doloremque iure ad eveniet ipsa?</p>
+            </article>
+            <article>
+                <h2>This is example 2</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quas rerum magni nulla earum recusandae, deleniti laboriosam similique, assumenda, quia necessitatibus sequi porro. Est in doloremque iure ad eveniet ipsa?</p>
+            </article>
+            <article>
+                <h2>This is example 3</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quas rerum magni nulla earum recusandae, deleniti laboriosam similique, assumenda, quia necessitatibus sequi porro. Est in doloremque iure ad eveniet ipsa?</p>
+            </article>
+            <article>
+                <h2>This is example 4</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quas rerum magni nulla earum recusandae, deleniti laboriosam similique, assumenda, quia necessitatibus sequi porro. Est in doloremque iure ad eveniet ipsa?</p>
+            </article>
+            <article>
+                <h2>This is example 5</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quas rerum magni nulla earum recusandae, deleniti laboriosam similique, assumenda, quia necessitatibus sequi porro. Est in doloremque iure ad eveniet ipsa?</p>
+            </article>
+            <article>
+                <h2>This is example 6</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quas rerum magni nulla earum recusandae, deleniti laboriosam similique, assumenda, quia necessitatibus sequi porro. Est in doloremque iure ad eveniet ipsa?</p>
+            </article>
+            <article>
+                <h2>This is example 7</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quas rerum magni nulla earum recusandae, deleniti laboriosam similique, assumenda, quia necessitatibus sequi porro. Est in doloremque iure ad eveniet ipsa?</p>
+            </article>
+            <article>
+                <h2>This is example 8</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quas rerum magni nulla earum recusandae, deleniti laboriosam similique, assumenda, quia necessitatibus sequi porro. Est in doloremque iure ad eveniet ipsa?</p>
+            </article>
+            <article>
+                <h2>This is example 9</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quas rerum magni nulla earum recusandae, deleniti laboriosam similique, assumenda, quia necessitatibus sequi porro. Est in doloremque iure ad eveniet ipsa?</p>
+            </article>
+
+         </section>
+
+    </div>
+    <script>
+        $("a.stack").on("click",function(){
+            $("article").addClass("stack");
+        });
+
+        $("a.grid").on("click",function(){
+            $("article").removeClass("stack");
+        });
+    </script>
+</body>
+</html>

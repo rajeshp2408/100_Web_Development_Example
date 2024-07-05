@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* RESET */
+*,
+*::after,
+*::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* color define */
+
+
+body{
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    color: black;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 80%;
+    min-height: 700px;
+    margin: 0 auto;
+    border: 10px solid black;
+}
+
+.item{
+    width: 100px;
+    height:  100px;
+    background-color: rgb(228, 161, 114);
+    padding: 1em;
+    font-weight: 700;
+    color: aliceblue;
+    text-align: center;
+    border: 10px solid rgb(236, 103, 8);
+    border-radius: 10px;
+}
+
+/* New styling */
+
+.container{
+    display: flex; /* Default Horizontal axis */
+    flex-direction: row; /* Change Horizontal position */
+    /* flex-direction: column; *//* Change vertical position */
+    /* justify-content: flex-start;   *//* Align to Left */
+    /* justify-content: center; *//* Align to center */
+    /* justify-content: flex-end;   *//* Align to center */
+    /* justify-content: space-between; */ /* Evenly distribute to all angle */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start;  *//* Vertically start */
+    /* align-items: flex-end;  */ /* Vertically end */
+    /* align-items: center;  *//* Vertically center */
+    /* align-items: baseline; */
+    /* flex-wrap: wrap; */
+    /* align-content: space-around; */
+    /* gap: 1em; */
+
+}
+
+.item-2{
+    /* flex-grow: 1;  *//* Grow */
+    /* flex-shrink: 5; */
+    /* flex: 1; */
+    /* align-self: baseline; */
+    order: -1;
+}

@@ -13,7 +13,8 @@ This will be base for 100- projects sample
 8. Creative Web Page Layout (4_types)
 9. Creative Web Page Layout (4_types)- Using FlexBox
 10. Personal profile Layout (In Progress)- Using FlexBox
-
+11. Personal profile - HTML
+12. FlexBox CSS Layout
 
 Additional CSS(time to time):
 1. Margin /Padding
