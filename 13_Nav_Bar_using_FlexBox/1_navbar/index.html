@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="statics/styles.css">
+    <title>Navbar_1(Responsive HTML & CSS)</title>
+    <!-- java script -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function() {
+            $(".toggle").on("click",function(){
+                if($(".nav_list").hasClass("active")){
+                    $(".nav_list").removeClass("active");
+                }
+                else{
+                    $(".nav_list").addClass("active");
+                }
+            })
+        });
+    </script>
+
+</head>
+<body>
+        <!-- Header Sections -->
+         <div class="container">
+
+            <!-- Navigation Section -->
+             <nav>
+                <ul class="menu">
+                    <!-- Logo -->
+                    <li class="nav_logo"><a href="#">Logo</a></li>
+                    <!-- Menu -->
+                    <li class="nav_list"><a href="#">Home</a></li>
+                    <li class="nav_list"><a href="#">About</a></li>
+                    <li class="nav_list"><a href="#">Services</a></li>
+                    <li class="nav_list"><a href="#">Product</a></li>
+                    <!-- Button -->
+                    <li class="nav_list button"><a href="#">Login</a></li>
+                    <li class="nav_list button btn-sec"><a href="#">Sign Up</a></li>
+                    <!-- Toggle -->
+                    <li class="toggle"><span class ="bars"></span></li>
+                </ul>
+             </nav>
+
+             <!-- Main Section -->
+              <main>
+
+              </main>
+
+         </div>
+
+</body>
+</html>

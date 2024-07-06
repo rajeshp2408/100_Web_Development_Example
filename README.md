@@ -15,6 +15,8 @@ This will be base for 100- projects sample
 10. Personal profile Layout (In Progress)- Using FlexBox
 11. Personal profile - HTML
 12. FlexBox CSS Layout
+13. Nav_Bar_using_FlexBox
+	a. 1_navbar (Responsive Web/Mobile/Tablet)
 
 Additional CSS(time to time):
 1. Margin /Padding
