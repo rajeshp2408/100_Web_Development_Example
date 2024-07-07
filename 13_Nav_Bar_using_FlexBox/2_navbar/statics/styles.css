@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* RESET */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* background-color: aqua; */
+
+}
+
+body{
+    background: url(./environement.jpeg) no-repeat;
+    height: 100vh;
+    background-size: cover ;
+    background-position: center;
+
+}
+
+/* ==================== Navigation Menu====================== */
+
+/* Header */
+.header-div{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    /* Transparent  background for header */
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo-div{
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.4s;
+}
+/* Link effect */
+
+.nav__link{
+    color: rgba(255, 255, 255, 0.75);
+    transition: all 0.4s;
+    position: relative;
+}
+
+.nav__link:hover,
+.nav__link:focus{
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav__link::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: #0071e3;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: all 0.2s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav__link:hover::after{
+    opacity: 1;
+}
+
+/* Button Hover */
+
+button{
+    margin: 0 10px;
+    position: relative;
+}
+
+.button{
+    background-color: rgb(51, 96, 94);
+    border: 2px solid rgb(41, 59, 59);
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 15px;
+
+}
+
+.button a{
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none;
+    font-size: 17px;
+    
+}
+
+.btn-sec{
+    background-color: transparent;
+}
+
+.btn-sec a{
+    color: rgb(41, 59, 59);
+}
+
+.btn-sec:hover{
+    background-color: rgb(51, 96, 94);
+    a{
+        color: aliceblue;
+    }
+}
+
+.btn-prim:hover{
+    background-color: transparent;
+    a{
+        color: rgb(41, 59, 59);
+    }
+}
+/* ===================Body -sections=================== */
+/* Body Section */
+.body-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 550px;
+}
+
+
+/* ===================Footer -sections=================== */
+/* Footer -sections */
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+
+    /* Transparent  background for header */
+    background: rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}

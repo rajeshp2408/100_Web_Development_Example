@@ -17,6 +17,7 @@ This will be base for 100- projects sample
 12. FlexBox CSS Layout
 13. Nav_Bar_using_FlexBox
 	a. 1_navbar (Responsive Web/Mobile/Tablet)
+	b. 2_navbar (Flexbox and 2-button )
 
 Additional CSS(time to time):
 1. Margin /Padding
