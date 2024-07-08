@@ -1,0 +1,144 @@
+/* Base Style */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Reset CSS */
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* =========================common Sections============================== */
+
+body{
+    background-color: rgb(204, 227, 227);
+}
+
+.container{
+    width: 100%;
+}
+
+/* Header */
+header, footer{
+    width: inherit;     /* To inherit from main container */
+    height: 50px;
+    /* Flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 10%;   /* Adding Padding on both side */
+    position: fixed;      /* To apply fixed header/footer */
+    background-color: rgb(71, 71, 95);
+}
+
+/* =========================Header Sections============================== */
+/* Header Div */
+.header-div{
+    padding: 0 80px;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo-div{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: aliceblue; 
+    min-width: 20%;
+    
+    font-weight: 700;
+    cursor: pointer;     /* To add mouse pointer */
+}
+
+/* Navigation */
+.nav-div{
+
+    list-style: none;
+    
+}
+
+.nav-div li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-div li a{
+
+    text-decoration: none;
+    color: aliceblue;
+    
+    transition: all 0.2s;
+}
+
+.nav-div a:hover{
+
+    color: blue
+
+}
+
+/* Button */
+.btn-div{
+    display: flex;
+    min-width: 20%;
+    justify-content: space-between;
+}
+
+.button{
+    padding: 9px 20px;
+    border-radius: 50px;
+    line-height: 15px;
+
+    border: 2px solid #1bc6b5;
+}
+.btn-prim{
+    background-color: #389188;
+    transition: all 0.2s;
+}
+
+.btn-prim a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+.btn-sec{
+    background-color: transparent;
+    transition: all 0.2s;
+}
+
+.btn-sec a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+/* Hover Effect */
+.btn-sec:hover{
+    background-color: #389188;
+}
+
+.btn-prim:hover{
+    background-color: transparent;
+}
+
+
+/* =========================body Sections============================== */
+
+.body-div{
+    padding: 50px 80px;
+}
+
+
+
+/* =========================Footer Sections============================== */
+.footer-div{
+    justify-content: center;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 300;
+    bottom: 0;     /* To move from bottom of screen */
+    z-index: 100;
+}

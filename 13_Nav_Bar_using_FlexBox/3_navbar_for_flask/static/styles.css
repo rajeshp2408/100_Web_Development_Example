@@ -1,0 +1,180 @@
+/* This is css used for header/footer */
+
+/* Base Style */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Reset CSS */
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* common changes */
+body{
+    background-color: rgb(204, 227, 227);
+}
+
+.container{
+    width: 100%;
+}
+
+/* Header */
+header, footer{
+    width: inherit;
+    max-width: inherit;
+    height: 75px;
+    /* Flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* To apply fixed header/footer */
+
+    padding: 20px 0px;
+    /* Transparent  background for header */
+    /* background: rgba(0, 0, 0, 0.2); */
+    background-color: rgb(71, 71, 95);
+}
+
+/* Navbar items */
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block; /* To display in line  */
+    z-index: 100;
+}
+/* ===========================Header Sections=================================== */
+
+
+/* Header */
+.header-div{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    /* Transparent  background for header */
+    /* background: rgba(0, 0, 0, 0.2); */
+}
+
+/* Logo */
+.logo-div{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: aliceblue; 
+    /* text-decoration: none; */
+    font-weight: 700;
+    letter-spacing: 1.5px;     /* Add spacing between character */
+    cursor: pointer;
+    padding-left: ;
+}
+
+/* Nav */
+.nav-div a{
+    position: relative;
+    font-weight: 500;
+    margin-left: 40px;
+
+}
+
+.nav-div a::before{
+    content: "";
+    /* position: absolute; */
+    top:100%; /* you can define up or down  */
+    left:0;
+    width: 0 ;
+    height: 1.5px;
+    background: aliceblue;
+    transition: all 0.3s;
+}
+
+/* Hover effect */
+.nav-div a:hover::before{
+    width: 100% ;
+}
+
+/* Button */
+/* Button */
+
+.btn-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    
+    background-color:#009688 ;
+    /* border: 2px solid rgb(41, 59, 59); */
+    border-radius: 50px;
+
+    border: 2px solid #009688;
+    line-height: 30px;
+    display: block;
+    transition: all 0.3s;
+
+}
+
+.button a{
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none;
+
+}
+
+.btn-sec{
+    background-color: transparent;
+}
+
+.btn-sec a{
+    color: #009688 ;
+}
+
+/* Login */
+.btn-prim:hover{
+    a{
+        color: #009688 ;
+    }
+   
+    background-color: transparent;
+}
+
+/* SingUP */
+.btn-sec:hover{
+    a{
+        color: aliceblue;
+    }
+
+    background-color:#009688 ;
+}
+/* ===================Body -sections=================== */
+/* Body Section */
+
+
+/* ===================Footer -sections=================== */
+/* Footer -sections */
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 300;
+
+    /* Transparent  background for header */
+    /* color: rgb(33, 42, 42); */
+    color: aliceblue;
+    margin-top: 10px;
+
+    bottom: 0;     /* To move from bottom of screen */
+    z-index: 100;
+}

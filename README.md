@@ -18,6 +18,8 @@ This will be base for 100- projects sample
 13. Nav_Bar_using_FlexBox
 	a. 1_navbar (Responsive Web/Mobile/Tablet)
 	b. 2_navbar (Flexbox and 2-button )
+	c. 3_navbar (Flexbox and 2-button, Hover Blue )
+	d. 4_navbar (Flexbox and 2-button/ Hover Underline )
 
 Additional CSS(time to time):
 1. Margin /Padding
