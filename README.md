@@ -20,6 +20,8 @@ This will be base for 100- projects sample
 	b. 2_navbar (Flexbox and 2-button )
 	c. 3_navbar (Flexbox and 2-button, Hover Blue )
 	d. 4_navbar (Flexbox and 2-button/ Hover Underline )
-
+14. Table_data.
+	a. 1_table with Hover
+	
 Additional CSS(time to time):
 1. Margin /Padding
