@@ -22,6 +22,10 @@ This will be base for 100- projects sample
 	d. 4_navbar (Flexbox and 2-button/ Hover Underline )
 14. Table_data.
 	a. 1_table with Hover
-	
+15. Layout
+	a. 1_layout
+	b. 1_layout - Video Playing
 Additional CSS(time to time):
 1. Margin /Padding
+2. css_position
+3. position
