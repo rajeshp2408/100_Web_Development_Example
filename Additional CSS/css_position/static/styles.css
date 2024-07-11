@@ -1,0 +1,53 @@
+/* Base Style */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Reset CSS */
+*{  
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* .element{
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    background-color: aquamarine;
+    color: rgb(139, 70, 70);
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+
+} */
+/* .element{
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    color: rgb(139, 70, 70);
+    position: sticky;
+
+    top: 100px;
+} */
+
+.container{
+    width: 80%;
+    padding: 30px;
+    background-color: aquamarine;
+    color: brown;
+    position: relative;
+}
+
+.child-div{
+    padding: 20px;
+    background-color: blueviolet;
+    color: aliceblue;
+    position: absolute;
+    /* top: 0;
+    right: 0; */
+}

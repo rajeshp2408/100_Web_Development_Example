@@ -1,0 +1,122 @@
+/* Base Style */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Reset CSS */
+*{  
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Main body container */
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 17px;
+    gap: 10px;
+    margin: 10px;
+
+}
+.container>div{
+    flex: 100%;
+}
+/* ===================Header Section==================== */
+
+
+header, footer{
+    width: inherit;
+    min-height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+
+/* ===================Sidebar Section==================== */
+.main-body-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.sidebar-div{
+    flex: 1;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+/* ===================Main Section==================== */
+.sub-main-body-div{
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sub-main-body-div>div{
+    flex: 100%;
+}
+
+.main-div{
+    width: inherit;
+    min-height: 250px;
+    background-color: gray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+/* ===================Box Section==================== */
+.box-item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box{
+    min-height: 200px;
+    background-color: gray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+/* ===================Footer Section==================== */
+.footer-div{
+    flex: 1;
+}
+
+@media only screen and (max-width: 770px) {
+        .main-body-div{
+            flex-direction: column;
+        }
+        .sidebar-div{
+            min-height: 50px ;
+        }
+}
+
+@media only screen and (max-width: 550px) {
+    .box-item>div{
+        flex: 100%;
+    }
+    .box{
+        min-height: 170px !important;
+    }
+}
