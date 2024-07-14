@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* RESET */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+
+ p.middle-p{
+    color: rgb(10, 171, 10);
+    background-color: antiquewhite;
+    margin-top: 10px;
+ }
+
+ p.lean{
+    color: brown;
+ }
+ p.lean.lean-2{
+    color: rgb(75, 52, 52);
+    border: 2px dashed #53613e;
+ }
+
+ /* Targeting specific attributes */
+ /* a[href="https://www.w3schools.com/"]{
+    background-color: #385757;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+
+ } */
+
+ a[href*="w3schools"]{
+    background-color: #385757;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+
+ }

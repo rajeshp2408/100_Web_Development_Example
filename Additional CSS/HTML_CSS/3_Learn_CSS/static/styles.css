@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* RESET */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: lightblue;
+    
+}
+
+.container h1{
+    color: blueviolet;
+    background-color: burlywood;
+    text-align: center;
+}
+.container p{
+    color: gray;
+    letter-spacing: 3px;
+    column-count: 3;
+}
+
+
+/* Div 2 part */
+.div-2 h2{
+    color: cadetblue;
+    background-color: blanchedalmond;
+    margin: 10px 0;
+    text-align: end;
+    text-shadow: 2px 2px rgb(215, 222, 223);
+}
+
+.div-2 .list-item{
+    margin-top: 10px;
+    list-style: none;
+    list-style-type: square;  /* change list style */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    background-color:#2d5664;
+    color: #f0f8ff;
+    border-radius: 4%;
+    padding: 0 20px;
+
+    /* Border design */
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: brown; */
+    border: 4px solid #000000;     /* We can combine all border in single line */
+}
+
+.div-2 .list-item a{
+    text-decoration: none;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 16px;
+
+}

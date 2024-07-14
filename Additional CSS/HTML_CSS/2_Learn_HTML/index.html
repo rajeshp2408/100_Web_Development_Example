@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Form Document</title>
+</head>
+<body>
+    <div class="container">
+
+        
+        <form action="">
+            <label for="username">Username :</label><!-- Label -->
+            <input type="text" id="username" name="username" placeholder="Input Username"><!-- User Input -->
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"  placeholder="Input Email" required="required">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Input Password" required="required">
+            <br>
+            <!-- name attribute can help in grouping -->
+            <input type="radio" id="html" name="fav_language" value="HTML"> <!--value will be added upon selecting button  -->
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language2" value="JavaScript">  <!--Notice when name change we can select multiple button  -->
+            <label for="javascript">JavaScript</label>
+            <br>  <br>  <br>  <br>
+            <label for="sort-option">Sorting Options</label>
+            <select name="sort-option" id="sort-option">
+                <option value="option-1">Sort by Date</option>
+                <option value="option-1">Sort by Alphabetical(A-Z)</option>
+            </select>
+            
+            <br>  <br>  <br>
+            <label for="text-input">Your text here:</label><br>
+            <textarea name="text-input" id="text-input" cols="30" rows="5" placeholder="Input Text"></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
