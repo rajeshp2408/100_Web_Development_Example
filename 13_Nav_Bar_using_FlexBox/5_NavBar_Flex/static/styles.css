@@ -1,0 +1,86 @@
+/* Base Style */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Reset CSS */
+*{  
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #404141;
+    color: aliceblue;
+}
+
+.header-div{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10%;
+}
+
+.logo-div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-div p{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* navbar */
+
+.nav-div ul{
+    display: flex;
+
+}
+.nav-div ul a{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0 20px;
+    transition: all 0.2s ease;
+}
+
+.nav-div ul a:hover{
+    color: aqua;
+}
+
+.nav-div ul a:active{
+    color: aqua;
+}
+
+.btn-div{
+    display: flex;
+    align-items: center;
+
+}
+button{
+    background-color: rgb(57, 119, 98);
+    margin :0 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid #1bc6b5;
+}
+button a{
+    /* margin :0 20px; */
+    color: aliceblue;
+
+    font-size: 16px;
+}

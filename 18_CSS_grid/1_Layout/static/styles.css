@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* RESET */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+/* Custom CSS */
+
+
+.container{
+    max-width: 80%;
+    background-color: #afb4b6;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 25% 25%  25% ;
+}
+
+.container > div{
+   background-color: #27a5a5; 
+}
